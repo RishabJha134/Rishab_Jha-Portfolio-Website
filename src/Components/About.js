@@ -35,7 +35,15 @@ const About = () => {
 
         <br />
 
-       
+        <p className="text-xl">
+          With expertise in Front-End Web Development, I excel at building
+          robust, dynamic web applications. I am proficient in Python, C, C++,
+          Java, and JavaScript. In web development, I create impressive UIs
+          using HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS, and React.js.
+          My curiosity also extends to Artificial Intelligence and Machine
+          Learning, where I see great potential for transforming the digital
+          landscape.
+        </p>
       </div>
     </div>
   );
