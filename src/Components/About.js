@@ -2,48 +2,51 @@ import React from "react";
 
 const About = () => {
   return (
-    <div
+    <section
       id="about"
-      className="w-full  min-h-screen  bg-gradient-to-b from-gray-800 to-black text-white py-16 sm:py-20"
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white py-16 sm:py-20"
     >
       <div className="max-w-screen-lg mt-[220px] md:mt-0 p-4 mx-auto flex flex-col justify-center w-full h-full">
+        {/* Heading */}
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
-          </p>
+          <h2 className="text-4xl font-bold inline border-b-4 border-gray-500">
+            About Me
+          </h2>
         </div>
 
+        {/* Content */}
         <div className="space-y-6 text-gray-300">
-          <p className="text-lg sm:text-xl">
-            Welcome to my portfolio! I'm Rishab Jha, currently pursuing my B. Tech
-            degree in Computer Science with a specialization in Artificial
-            Intelligence and Data Science.
+          <p className="text-lg sm:text-xl leading-relaxed">
+            Hi, I’m <strong>Rishab Jha</strong>, a full-stack developer currently pursuing a B.Tech in Computer Science
+            with a focus on AI and Data Science at the University School of Automation and Robotics, Delhi. I specialize in
+            building dynamic, scalable web applications using technologies like <strong>React.js</strong>, <strong>Node.js</strong>,
+            <strong> Express.js</strong>, <strong>MongoDB</strong>, and <strong>Tailwind CSS</strong>.
           </p>
 
-          <p className="text-lg sm:text-xl">
-            I have extensive experience in front-end development, particularly
-            with React.js and state management using Redux Toolkit. My work
-            involves integrating APIs seamlessly into the frontend, optimizing
-            applications for performance, and adhering to best practices. I
-            efficiently manage state and write modular code with a strong focus on
-            component reusability. I excel at creating visually appealing and
-            highly functional UIs using Tailwind CSS, and have hands-on experience
-            with Material UI, shadcn, and various other libraries. My approach
-            ensures robust, maintainable, and scalable applications.
+          <p className="text-lg sm:text-xl leading-relaxed">
+            I have experience in front-end development, working with <strong>Redux Toolkit</strong> for state management and
+            integrating APIs seamlessly. I create responsive and visually appealing UIs and have hands-on experience with
+            UI libraries like <strong>Material UI</strong> and <strong>ShadCN</strong>. On the back-end, I’m proficient in
+            building RESTful APIs, handling databases like <strong>MongoDB</strong> and <strong>MySQL</strong>, and ensuring
+            secure authentication with <strong>JWT</strong> and <strong>bcrypt.js</strong>.
           </p>
 
-          <p className="text-lg sm:text-xl">
-            With expertise in Front-End Web Development, I excel at building
-            robust, dynamic web applications. I am proficient in Python, C, C++,
-            Java, and JavaScript. In web development, I create impressive UIs
-            using HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS, and React.js.
-            My curiosity also extends to Artificial Intelligence and Machine
-            Learning, where I see great potential for transforming the digital
-            landscape.
+          <p className="text-lg sm:text-xl leading-relaxed">
+          I’m continually learning and exploring new technologies, especially in the areas of <strong>AI</strong> and{" "}
+            <strong>Machine Learning</strong>. My goal is to leverage my skills in both software development and AI to build
+            applications that not only solve real-world problems but also enhance user experiences through intelligent systems.
+            I’m eager to contribute to impactful projects and collaborate with like-minded professionals to drive innovation
+            in the tech industry.
+          </p>
+
+          <p className="text-lg sm:text-xl leading-relaxed">
+            I'm always learning and excited to work on innovative projects that leverage AI and web technologies. I believe in
+            continuous growth, and I'm looking forward to contributing to impactful solutions while collaborating with
+            talented teams.
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
